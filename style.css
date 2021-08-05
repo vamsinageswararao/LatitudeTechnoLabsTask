@@ -1,0 +1,84 @@
+footer{
+    background-color: black;
+    color: white;
+    position: fixed;
+    left:0px;
+   bottom:0px;
+   width:100%;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+.col{
+    margin: 45px auto;
+   text-align: center;
+}
+.img-left{
+    height: auto;
+    width: 50%;
+    margin-top: 60px;
+}
+form{
+    margin-left: 40px;
+    margin-right: 40px;
+}
+.form-floating{
+    margin: 10px;
+}
+.head{
+    text-align: left;
+    margin-left: 40px;
+    margin-top: 40px;
+}
+.fname{
+    display: inline-block;
+    width:47%;
+}
+.lname{
+    display: inline-block;
+    width: 46%;
+}
+
+input{
+    box-shadow:0px 5px 10px 0px gray;
+}
+button{
+    width: 50%;
+}
+span{
+    color: grey;
+}
+.col-md-8{
+    text-align: left;
+    word-break: break-all;
+}
+.col-md-4{
+    margin-top: 10px;
+}
+.card-body{
+    margin-top: -15px;
+    margin-left: -30px;
+}
+.card{
+    box-shadow:0px 5px 10px 0px gray;
+}
+h3{
+    
+    margin-bottom: 40px;
+}
+#searchbar{
+    border-style: none;
+    border-radius: 3px;
+    width: 70%;
+}
+@media only screen and (max-width:900px){
+    .fname{
+        display: block;
+        width: auto;
+    }
+    .lname{
+        display: block;
+        width: auto;
+    }
+}   
